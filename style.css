@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Playfair:opsz,wght@5..1200,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,200&display=swap');
+
+
+
+.st-emotion-cache-k7vsyb h1,
+.st-emotion-cache-k7vsyb h2,
+.st-emotion-cache-k7vsyb h3,
+.st-emotion-cache-k7vsyb h4,
+.st-emotion-cache-k7vsyb h5,
+.st-emotion-cache-k7vsyb h6,
+.st-emotion-cache-k7vsyb span {
+    font-weight: bold;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    font-weight: bold;
+    font-weight: 450;
+    font-family: "Playfair Display", serif;
+}
+
+#root>div:nth-child(1)>div.withScreencast>div>div>div>section>div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4>div>div>div:nth-child(3)>div>div>div>input {
+    background: whitesmoke;
+    border: 1px solid black;
+    font-family: "Playfair Display", serif;
+    color: grey;
+    /* text-decoration: none; */
+    /* padding: %; */
+    /* margin-top: 10px; */
+}
+
+#root>div:nth-child(1)>div.withScreencast>div>div>div>section>div.block-container.st-emotion-cache-1y4p8pa.ea3mdgi4>div>div>div:nth-child(4)>div>div {
+    color: aqua;
+}

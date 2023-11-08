@@ -9,6 +9,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
+with open("style.css") as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
 # Load data
 news_df = pd.read_csv('train.csv')
 news_df = news_df.fillna(' ')
@@ -50,8 +53,8 @@ model.fit(X_train, Y_train)
 
 
 # website
-st.title('Social Network project \n Fake News Detector')
-input_text = st.text_input('Enter news Article')
+st.title('AI/ML Project \n Fake News Detector')
+input_text = st.text_input('Enter the news Article you want to check: ')
 
 
 def prediction(input_text):
